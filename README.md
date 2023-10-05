@@ -1,4 +1,12 @@
-En este trabajo, se desarrolla un Controlador PID Adaptativo para una planta de velocidad de motor de corriente continua, utilizando un algoritmo de inteligencia artificial basado en el aprendizaje por refuerzo.
-Este algoritmo utiliza un agente actor-crítico, donde su objetivo es optimizar la política del actor y entrenar a un crítico para las recompensas.
-Esto generará las ganancias apropiadas sin necesidad de conocer el sistema.
-Se utilizó la política Deep Deterministic Policy Gradient con Twin Delayed (DDPG TD3), con una red compuesta por 300 neuronas para el aprendizaje del agente.
+# ⭐⭐⭐⭐ Adaptive PI Controller Based on a Reinforcement Learning Algorithm for Speed Control of a DC Motor
+
+## ⭐ When using this resource, please cite the original publication:
+- **Alejandro-Sanjines, U.; Maisincho-Jivaja, A.; Asanza, V.; Lorente-Leyva, L.L.; Peluffo-Ordóñez, D.H. Adaptive PI Controller Based on a Reinforcement Learning Algorithm for Speed Control of a DC Motor. Biomimetics 2023, 8, 434. https://doi.org/10.3390/biomimetics8050434**
+
+## ✅ Abstract:
+- The shrimp farming industry in Ecuador, renowned for its shrimp breeding and exportation, faces challenges due to diseases related to variations in abiotic factors during the maturation stage. This is partly attributed to the traditional methods employed in shrimp farms. Consequently, a prototype has been developed for monitoring and controlling abiotic factors using IoT technology. The proposed system consists of three nodes communicating through the LoRa interface. For control purposes, a fuzzy logic system has been implemented that evaluates temperature and dissolved oxygen abiotic factors to determine the state of the aerator, updating the information in the ThingSpeak application. A detailed analysis of equipment energy consumption and the maximum communication range for message transmission and reception was conducted. Subsequently, the monitoring and control system underwent comprehensive testing, including communication with the visualization platform. The results demonstrated significant improvements in system performance. By modifying parameters in the microcontroller, a 2.55-fold increase in battery durability was achieved. The implemented fuzzy logic system enabled effective on/off control of the aerators, showing a corrective trend in response to variations in the analyzed abiotic parameters. The robustness of the LoRa communication interface was evident in urban environments, achieving a distance of up to 1 km without line of sight.
+
+In this work, an Adaptive PID Controller is developed for a DC motor speed plant, using an artificial intelligence algorithm based on reinforcement learning.
+This algorithm uses an actor-critic agent, where its goal is to optimize the actor policy and train a critic for rewards.
+This will generate the appropriate profits without needing to know the system.
+The Deep Deterministic Policy Gradient with Twin Delayed (DDPG TD3) policy was used, with a network composed of 300 neurons for agent learning.
